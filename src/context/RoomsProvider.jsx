@@ -140,7 +140,7 @@ const initialState = {
     },
     {
       number: 9,
-      items: [{ name: "Princess", id: "princess" }],
+      items: [{ name: "Princess", id: "princess", value: 0 }],
       monster: null,
       doors: [
         {
