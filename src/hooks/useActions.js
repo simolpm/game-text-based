@@ -116,17 +116,19 @@ export function useActions() {
   function look(actionName, room, descriptions, currentRoom) {
     if (actionName === "LOOK") {
       // Message to display
-      const lookMessage = `
-        ${descriptions[0].rooms[currentRoom]}
-
-        Items: ${room.items.map((item) => {
-          return item.name;
-        })}
-
-        Doors: ${room.doors.map((item) => {
-          return item.direction;
-        })}
-        `;
+      const lookMessage = `${descriptions[0].rooms[currentRoom]} ${
+        room.items.length > 0
+          ? `Items: ${room.items.map((item) => item.name).join(", ")}. `
+          : ""
+      }${
+        room.doors.length > 0
+          ? `Doors: ${room.doors
+              .map((item) => {
+                return item.direction;
+              })
+              .join(", ")}.`
+          : ""
+      }`;
 
       dispatchGame({
         type: "game/look",
