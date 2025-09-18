@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  /* Breakpoints */
+  --breakpoint-2xl: initial;
+}

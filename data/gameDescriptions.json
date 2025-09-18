@@ -1,0 +1,21 @@
+{
+  "gameDescriptions": [
+    {
+      "start": "The princess of the kingdom of CPeria has been captured by an evil wizard and placed in a castle guarded by monsters. Your job is to set her free and bring her back outside the castle. There are 9 rooms in the castle and one exit to it. Rooms have tresaure and weapons too. So do you have the potential to destroy the monster and save Princess Zelda? Are you ready? Lets do it!",
+      "endWin": "You rescued the princess and exit the castle. You Win!",
+      "endLose": "You exit the castle without rescuing the princess. You Lose!",
+      "endDead": "The monster killed you. You are dead. Try Again!",
+      "rooms": [
+        "Description of Room 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id rutrum massa, in blandit turpis.",
+        "Description of Room 2. Praesent congue lectus tellus, sed efficitur ligula efficitur sed. Fusce mattis turpis ante, vitae elementum enim bibendum eu.",
+        "Description of Room 3. Nam faucibus purus et enim facilisis, nec volutpat ante fringilla. Nam consectetur maximus ante vel malesuada.",
+        "Description of Room 4. Nulla a gravida lectus. Sed consectetur eu justo imperdiet feugiat. Orci varius natoque penatibus et magnis.",
+        "Description of Room 5. Fusce non sem nec justo molestie pretium. Quisque congue magna sed mi luctus, in mollis massa vehicula.",
+        "Description of Room 6. Maecenas elementum consequat orci non lacinia. Vestibulum luctus eget metus vel pretium. Nunc vitae ultricies nunc, vitae scelerisque arcu.",
+        "Description of Room 7. Donec at justo quis dolor malesuada vehicula eu ut erat. Etiam odio lectus, pellentesque vitae laoreet a, tincidunt id nulla.",
+        "Description of Room 8. Suspendisse elit leo, vehicula ut finibus eget, sagittis eu metus. Ut eget est et mauris malesuada mollis.",
+        "Description of Room 9. Praesent hendrerit dolor et tortor rhoncus consequat. Aliquam posuere orci rhoncus, mollis urna vel, fringilla libero. Donec ut nulla mi."
+      ]
+    }
+  ]
+}
